@@ -23,4 +23,10 @@ function sf_child_theme_dequeue_style() {
  * Note: DO NOT! alter or remove the code above this text and only add your custom PHP functions below this text.
  */
 
-
+// Add custom footer credits
+if ( ! function_exists( 'storefront_credit' ) ) {
+   function storefront_credit() {
+   	$creds = '<div class="site-info">Copyright &copy; &nbsp;' . date('Y') . '&nbsp; fiverrbiz.com</div><!-- .site-info -->';
+   	echo $creds;
+  }
+}
