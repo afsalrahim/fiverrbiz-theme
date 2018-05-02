@@ -30,3 +30,9 @@ if ( ! function_exists( 'storefront_credit' ) ) {
    	echo $creds;
   }
 }
+
+// Remove The Product Search Form From The Header
+add_action( 'init', 'remove_storefront_product_search' );
+function remove_storefront_product_search() {
+    remove_action( 'storefront_header', 'storefront_product_search', 40 );
+}

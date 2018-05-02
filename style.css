@@ -11,3 +11,55 @@ License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  	storefront
 Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready
 */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+a img {
+	border:0;
+}
+
+html,body {
+	font-family:'Poppins', sans-serif;
+	color:#30302f;
+	font-size:1em;
+	line-height:2em;
+	margin:0;
+	width:100%;
+	padding:0;
+	overflow-x:hidden;
+}
+
+
+a {
+	color:#2aa36c;
+	text-decoration:none;
+	outline:0;
+}
+
+a:hover {
+	color:#2aa36c;
+	text-decoration:underline;
+}
+
+.site-content {
+	background-color: #f6f6f6;
+}
+
+.site-header {
+	border-bottom: 1px solid #e0e0e1;
+	padding-top: 1.817924em;
+}
+
+.secondary-navigation .menu a {
+    font-weight: 700;
+    font-size: 1.28em;
+}
+
+.woocommerce-breadcrumb {
+	margin-bottom: 0.235801em;
+}
+.content-area {
+    background-color: #fff;
+    padding: 1.2em 1.2em 1.2em 1.6em;	
+}
+    
